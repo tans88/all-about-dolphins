@@ -1,0 +1,662 @@
+body, html{
+    margin: 0; 
+    padding-bottom: 20px; 
+}
+body{
+    min-width: 200px; 
+    min-height: 200px; 
+    max-width: 3000px; 
+    max-height: 3000px; 
+}
+.banner-content{
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    padding: 30px;
+    background-color:rgb(54, 186, 173);
+}
+nav{
+    font-family: "Geneva", sans-serif; 
+    font-size: 15px; 
+    float: left;  
+}
+#h{
+    margin-left: 30px;
+}
+#i{
+    margin-left: 30px; 
+}
+#c{
+    margin-left: 30px; 
+}
+#p{
+    margin-left: 30px;  
+}
+#h:hover{
+    opacity: 0.6
+}
+#i:hover{
+    opacity: 0.6 
+}
+#c:hover{
+    opacity: 0.6
+}
+#p:hover{
+    opacity: 0.6
+}
+header{
+    padding-top: 110px; 
+    text-align: center; 
+    font-family: "Geneva", sans-serif;
+    font-style: italic;
+    font-size: 20px; 
+    color: rgb(130, 224, 213); 
+}
+.content{
+    margin-left: 20px; 
+    margin-right: 20px; 
+    text-align: justify; 
+}
+.body{
+    font-family: "Geneva", sans-serif; 
+}
+.headers{
+    font-family: "Futura", sans-serif;
+    font-size: 17px; 
+    color:rgb(54, 186, 173);
+}
+.drive-photos{
+    display: flex; 
+    padding: 10px; 
+    gap: 5px; 
+    justify-content: center;
+}
+#dp-one{
+    width: 36.5%;
+    overflow: hidden; 
+    align-self: flex-start;
+}
+#dp-two{
+    width: 30%; 
+    overflow: hidden;
+    align-self: flex-start; 
+}
+#boat-photo{
+    width: 33%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and (min-width: 3000px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 30px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 40px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 90px;
+    }
+    #i{
+      margin-left: 90px; 
+    }
+    #c{
+      margin-left: 90px; 
+    }
+    #p{
+      margin-left: 90px;  
+    }
+    header{
+      padding-top: 250px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 50px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 50px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 50px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 2000px) and (max-width: 3000px){
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 30px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 60px;
+    }
+    #i{
+      margin-left: 60px; 
+    }
+    #c{
+      margin-left: 60px; 
+    }
+    #p{
+      margin-left: 60px;  
+    }
+    header{
+      padding-top: 250px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 40px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 33px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 33px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 1800px) and (max-width: 2000px){            /* 67% zoom */
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 20px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 50px;
+    }
+    #i{
+      margin-left: 50px; 
+    }
+    #c{
+      margin-left: 50px; 
+    }
+    #p{
+      margin-left: 50px;  
+    }
+    header{
+      padding-top: 250px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 30px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 22px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 22px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1800px){
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 18px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 50px;
+    }
+    #i{
+      margin-left: 50px; 
+    }
+    #c{
+      margin-left: 50px; 
+    }
+    #p{
+      margin-left: 50px;  
+    }
+    header{
+      padding-top: 220px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 25px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 20px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 20px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px){
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 14px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 30px;
+    }
+    #i{
+      margin-left: 30px; 
+    }
+    #c{
+      margin-left: 30px; 
+    }
+    #p{
+      margin-left: 30px;  
+    }
+    header{
+      padding-top: 140px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 18px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 14px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 14px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1100px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 20px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 12px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 30px;
+    }
+    #i{
+      margin-left: 30px; 
+    }
+    #c{
+      margin-left: 30px; 
+    }
+    #p{
+      margin-left: 30px;  
+    }
+    header{
+      padding-top: 120px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 14px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 12px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 12px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 850px) and (max-width: 900px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 12px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 10px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 30px;
+    }
+    #i{
+      margin-left: 30px; 
+    }
+    #c{
+      margin-left: 30px; 
+    }
+    #p{
+      margin-left: 30px;  
+    }
+    header{
+      padding-top: 90px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 14px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 10px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 10px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 850px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 10px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 8px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 25px;
+    }
+    #i{
+      margin-left: 25px; 
+    }
+    #c{
+      margin-left: 25px; 
+    }
+    #p{
+      margin-left: 25px;  
+    }
+    header{
+      padding-top: 60px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 10px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 8px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 8px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 700px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 7px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 7px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 20px;
+    }
+    #i{
+      margin-left: 20px; 
+    }
+    #c{
+      margin-left: 20px; 
+    }
+    #p{
+      margin-left: 20px;  
+    }
+    header{
+      padding-top: 60px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 10px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 7px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 7px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 7px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 6px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 20px;
+    }
+    #i{
+      margin-left: 20px; 
+    }
+    #c{
+      margin-left: 20px; 
+    }
+    #p{
+      margin-left: 20px;  
+    }
+    header{
+      padding-top: 40px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 7px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 7px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 7px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 5px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 6px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 15px;
+    }
+    #i{
+      margin-left: 15px; 
+    }
+    #c{
+      margin-left: 15px; 
+    }
+    #p{
+      margin-left: 15px;  
+    }
+    header{
+      padding-top: 25px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 6px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 6px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 6px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 350px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 5px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 4px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 10px;
+    }
+    #i{
+      margin-left: 10px; 
+    }
+    #c{
+      margin-left: 10px; 
+    }
+    #p{
+      margin-left: 10px;  
+    }
+    header{
+      padding-top: 25px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 5px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 6px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 5px; 
+        color:rgb(54, 186, 173);
+    }
+}
+@media only screen and (max-width: 350px){
+    .banner-content{
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      padding: 3px;
+      background-color:rgb(54, 186, 173);
+    }
+    nav{
+      font-family: "Geneva", sans-serif; 
+      font-size: 3px; 
+      float: left;  
+    }
+    #h{
+      margin-left: 5px;
+    }
+    #i{
+      margin-left: 5px; 
+    }
+    #c{
+      margin-left: 5px; 
+    }
+    #p{
+      margin-left: 5px;  
+    }
+    header{
+      padding-top: 15px; 
+      text-align: center; 
+      font-family: "Geneva";
+      font-style: italic;
+      font-size: 4px; 
+      color: rgb(130, 224, 213);
+      width: 100%; 
+    }
+    .content{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        text-align: justify;  
+        font-size: 5px;
+    }
+    .headers{
+        font-family: "Futura", sans-serif;
+        font-size: 5px; 
+        color:rgb(54, 186, 173);
+    }
+}
