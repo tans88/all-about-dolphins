@@ -1,0 +1,106 @@
+body, html{
+    margin: 0; 
+}
+body{
+    min-width: 200px; 
+    min-height: 200px; 
+    max-width: 3000px; 
+    max-height: 3000px; 
+}
+.banner-content{
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    padding: 30px;
+    background-color:rgb(54, 186, 173);
+}
+nav{
+    font-family: "Geneva", sans-serif; 
+    font-size: 15px; 
+    float: left;  
+}
+#h{
+    margin-left: 30px;
+}
+#i{
+    margin-left: 30px; 
+}
+#c{
+    margin-left: 30px; 
+}
+#p{
+    margin-left: 30px;  
+}
+#h:hover{
+    opacity: 0.6
+}
+#i:hover{
+    opacity: 0.6 
+}
+#c:hover{
+    opacity: 0.6
+}
+#p:hover{
+    opacity: 0.6
+}
+strong:hover{
+    color: rgb(162, 171, 170); 
+}
+header{
+    padding-top: 110px; 
+    text-align: center; 
+    font-family: "Geneva", sans-serif;
+    font-style: italic;
+    font-size: 20px; 
+    color: rgb(130, 224, 213); 
+}
+.content{
+    margin-left: 20px; 
+    margin-right: 20px; 
+    text-align: justify; 
+}
+.questions{
+    font-family: "Futura", sans-serif;
+    color: rgb(162, 171, 170);
+    font-weight: bold; 
+}
+.headers{
+    font-family: "Futura", sans-serif;
+    font-size: 17px; 
+    color:rgb(54, 186, 173);
+}
+.body{
+    font-family: "Geneva", sans-serif; 
+}
+.species-photos{
+    padding: 10px; 
+}
+#orca-photo{
+    width: 33%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spotted-photo{
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.b-photos{
+    display: flex; 
+    padding: 10px; 
+    gap: 5px; 
+    justify-content: center;
+}
+#b-p-one{
+    width: 30%;
+    overflow: hidden; 
+    align-self: flex-start;
+}
+#b-p-two{
+    width: 28%; 
+    overflow: hidden; 
+    align-self: flex-start;
+}
